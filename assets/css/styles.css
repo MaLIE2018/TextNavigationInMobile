@@ -1,0 +1,33 @@
+.btn-floating {
+    right: 0;
+    bottom: calc(100vh/2);
+    position: fixed;
+    background-color: antiquewhite;
+    z-index: 100;
+}
+
+.sidebar {
+    height: 90vh;
+}
+
+.content {
+    height: 90vh;
+}
+
+#navbar-floating {
+    visibility: hidden;
+    position: fixed;
+    transform: translateY(50%);
+    bottom: calc(100vh/2);
+    right: 0;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu-toggler:hover #navbar-floating {
+    visibility: visible;
+}
+
+.menu-toggler:hover {
+    background-color: red
+}
