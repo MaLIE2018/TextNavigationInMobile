@@ -16,15 +16,25 @@
 }
 
 #navbar-floating {
-    visibility: hidden;
     position: fixed;
-    transform: translateY(50%);
     bottom: calc(100vh/2);
+    transform: translateY(50%);
     right: 24px;
     z-index: 1;
-    transition: all 0.2s ease-in-out;
+    animation: slide-from-right 0.2s linear forwards;
 }
 
-.menu-toggler:hover #navbar-floating {
+@keyframes slide-from-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+        transform: translateY(40%)
+        /* transform: translateY(50%); */
+    }
+}
+
+.menu-toggler:active #navbar-floating {
     visibility: visible;
 }

@@ -14,11 +14,14 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar-floating" data-offset="0">
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Only for mobile!</span>
+    </nav>
     <div class="menu-toggler position-relative">
         <a href="" class="btn-floating p-2">
             <ion-icon class="text-muted" name="menu-outline"></ion-icon>
         </a>
-        <nav id="navbar-floating" class="navbar navbar-light bg-light flex-column">
+        <nav id="navbar-floating" class="navbar navbar-light bg-light flex-column d-none">
             <a class="navbar-brand" href="#">Table of Contents</a>
             <nav class="nav nav-pills flex-column accordion" id="accordionExample">
                 <div class="card">
@@ -73,10 +76,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
             </nav>
         </nav>
     </div>
@@ -136,6 +135,7 @@
         <footer class="fixed-bottom" style="height:10vh"></footer>
     </div>
 
+    <script src="./assets/js/scripts.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
