@@ -2,8 +2,9 @@
     right: 0;
     bottom: calc(100vh/2);
     position: fixed;
-    background-color: antiquewhite;
+    background-color: #F8F9FA;
     z-index: 100;
+    opacity: 0.8;
 }
 
 .sidebar {
@@ -19,15 +20,11 @@
     position: fixed;
     transform: translateY(50%);
     bottom: calc(100vh/2);
-    right: 0;
+    right: 24px;
     z-index: 1;
     transition: all 0.2s ease-in-out;
 }
 
-.menu-toggler:hover #navbar-floating {
+.menu-toggler:active #navbar-floating {
     visibility: visible;
-}
-
-.menu-toggler:hover {
-    background-color: red
 }
