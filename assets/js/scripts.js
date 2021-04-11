@@ -15,5 +15,5 @@ var ongoingTouches = [];
 function handleStart(evt) {
     evt.preventDefault();
     document.querySelector('#navbar-floating').classList.toggle("d-none")
-    console.log("touchstart.");
+
 }
