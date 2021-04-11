@@ -1,5 +1,7 @@
 # TextNavigationInMobile
 
+https://malie2018.github.io/TextNavigationInMobile/
+
 To consum text on mobile screens can teadious.
 
 - a lot of scrolling
